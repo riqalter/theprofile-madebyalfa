@@ -62,7 +62,7 @@ const Home = () => {
               <span>I design beautiful and</span>
             </span>
             <span>
-              <span>meaningful logo</span>
+              <span>intuitive products</span>
             </span>
           </h1>
           <footer>

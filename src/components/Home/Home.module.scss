@@ -33,6 +33,7 @@
   }
   h1 {
     @extend %header-100;
+    font-size: 7rem;
     text-transform: uppercase;
     line-height: 1.125;
     padding-bottom: var(--padding-2);

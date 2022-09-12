@@ -1,6 +1,7 @@
 import { useMediaQuery } from '@/hooks'
 import { info } from '@/mocks'
 import { Link } from 'gatsby'
+// import { mainModule } from 'process'
 import React, { useState } from 'react'
 import * as S from './Footer.module.scss'
 
@@ -16,11 +17,7 @@ const Footer = () => {
       title: 'Dribbble',
     },
     {
-      href: `${info.arena}`,
-      title: 'Are.na',
-    },
-    {
-      href: `${info.instagram}`,
+      href: `${info.instagram}` ,
       title: 'Instagram',
     },
   ]
@@ -46,7 +43,7 @@ const Footer = () => {
         <header className={S.header}>
           <p className={S.header__p}>
             <span>
-              Lagos, NG
+              Depok, Jawa Barat
               <svg
                 width='6'
                 height='7'
@@ -55,7 +52,7 @@ const Footer = () => {
                 xmlns='http://www.w3.org/2000/svg'>
                 <circle cx='3' cy='3.5' r='3' fill='black' />
               </svg>
-              SW 22
+              Indonesia
             </span>
             <small>{time}</small>
           </p>
@@ -72,8 +69,8 @@ const Footer = () => {
       <header className={S.footer__header}>
         <div className={S.footer__header__left}>
           <p>Have an Idea?</p>
-          <a href={`${info.mail}`}>{info.mail}</a>
-          <a href={`${info.phone}`}>{info.phone}</a>
+          <a href="https://api.whatsapp.com/send/?phone=62859106634827&text&type=phone_number" target="_blank" rel="norefferer" >{info.phone}</a>
+          <a href="mailto:madebyalfa@gmail.com" target="_blank" rel="norefferer" >{info.mail}</a>
           <span>©2022</span>
         </div>
 

@@ -19,13 +19,13 @@ export interface IInfo {
 
 export const info: IInfo = {
   intro:
-    'madebyalfa is bla bla bla',
-  Behance: '',
-  dribbble: '',
-  instagram: '',
-  mail: 'hello@madebyalfa.com',
+    'Hi, I’m Alfa. I’m a UI/UX designer and front-end developer based in Moscow, Russia. I’m currently working at ',
+  Behance: 'https://www.behance.net/AlfaGraphic',
+  dribbble: 'https://dribbble.com/madebyalfa',
+  instagram: 'https://www.instagram.com/madeby.alfa/',
   arena: '',
-  phone: '+6269696969',
+  mail: 'madebyalfa@gmail.com',
+  phone: 'Whatsapp',
   surname: 'alfaqih',
   name: 'yahya',
   worksIntro:
