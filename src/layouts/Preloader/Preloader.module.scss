@@ -1,0 +1,31 @@
+@import '@/styles/_mixins.scss';
+@import '@/styles/_variables.scss';
+@import '@/styles/_utils.scss';
+@import '@/styles/_typography.scss';
+.preloader {
+  @extend %cover;
+  position: fixed;
+  z-index: 12;
+
+  @extend %center;
+  flex-direction: column;
+  gap: 2rem;
+
+  background: $col-white;
+  p {
+    span {
+      display: inline-block;
+      @extend %paragraph-16;
+    }
+  }
+  div {
+    @extend %paragraph-16;
+    gap: 1.5rem;
+    overflow: hidden;
+    span {
+      font-size: Max(20px, 2rem);
+      display: inline-block;
+      position: relative;
+    }
+  }
+}

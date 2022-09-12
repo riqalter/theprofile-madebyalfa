@@ -1,0 +1,105 @@
+@import '@/styles/_mixins.scss';
+@import '@/styles/_variables.scss';
+@import '@/styles/_utils.scss';
+@import '@/styles/_typography.scss';
+
+.info {
+  @extend %container;
+  padding-top: var(--padding-top);
+  padding-bottom: 10rem;
+}
+
+.info__wrapper {
+  min-height: 100vh;
+}
+
+.info__header {
+  padding-bottom: 4rem;
+  h1 {
+    @extend %header-100;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: uppercase;
+    span {
+      display: block;
+      @include respondMax('mobile3x') {
+        font-size: Max(36px, 4rem);
+      }
+      &:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        small {
+          @extend %paragraph-20;
+          text-transform: none;
+        }
+        @include respondMax('mobile2x') {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.info__description {
+  padding-bottom: 5rem;
+  p {
+    text-indent: 5rem;
+    @extend %paragraph-40;
+    a {
+      font-weight: 700;
+    }
+  }
+}
+
+.info__process {
+  h2 {
+    @extend %header-40;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+  & > p {
+    @extend %paragraph-20;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #d9d9d9;
+  }
+}
+
+.info__process__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: Max(15px, 2rem);
+
+  @include respondMax('tablet') {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include respondMax('mobile3x') {
+    grid-template-columns: 1fr;
+  }
+}
+
+.info__process__item {
+  border: 1px solid $col-black;
+  padding: 3rem 2rem;
+  @include respondMax('mobile3x') {
+    border: none;
+    padding: 3rem 0;
+  }
+  span {
+    @extend %paragraph-20;
+    font-family: 'Public Sans';
+    @include respondMax('mobile3x') {
+      font-size: 4rem;
+    }
+  }
+  h3 {
+    @extend %header-24;
+    padding: 2rem 0;
+    text-transform: uppercase;
+  }
+  p {
+    @extend %paragraph-16;
+    font-weight: 400;
+  }
+}
