@@ -31,9 +31,9 @@ const Works = () => {
                   <Link to={`/works/${slugify(works.name)}`}>View Project</Link>
                 </div>
                 <div className={S.works__work__right}>
-                  <p>
-                    Wahidi ©22 <br /> 0506
-                  </p>
+                  {/* <p>
+                    madebyalfa ©22 <br /> 0506
+                  </p> */}
                   <img
                     loading='lazy'
                     src={works.coverImage}

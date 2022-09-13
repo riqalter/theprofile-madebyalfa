@@ -19,7 +19,7 @@ export interface IInfo {
 
 export const info: IInfo = {
   intro:
-    'Hi, I’m Alfa. I’m a UI/UX designer and front-end developer based in Moscow, Russia. I’m currently working at ',
+    'alfagraphic | I\'m Logo Designer',
   Behance: 'https://www.behance.net/AlfaGraphic',
   dribbble: 'https://dribbble.com/madebyalfa',
   instagram: 'https://www.instagram.com/madeby.alfa/',

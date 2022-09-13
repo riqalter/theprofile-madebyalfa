@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react' //{ useState }
 import { useMousePosition } from '@/hooks'
 import * as styles from './Cursor.module.scss'
 

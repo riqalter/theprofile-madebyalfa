@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: 'madebyalfa',
     siteUrl: 'https://www.yourdomain.tld',
-    description: 'Not available yet.',
+    description: 'Help your brand business have a unique, relevant, and easily recognizable identity with a simple logo.',
     author: 'riq',
   },
   plugins: [

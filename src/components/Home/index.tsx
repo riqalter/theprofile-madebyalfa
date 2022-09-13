@@ -59,10 +59,10 @@ const Home = () => {
         <div>
           <h1 data-animation='home__h1'>
             <span>
-              <span>I design beautiful and</span>
+              <span>Help your brand business have a unique, relevant, and</span>
             </span>
             <span>
-              <span>intuitive products</span>
+              <span>easily recognizable identity with a simple logo.</span>
             </span>
           </h1>
           <footer>
@@ -74,7 +74,7 @@ const Home = () => {
               ))}
             </ul>
             <p>
-              Contact me at <a href={`${info.mail}`}>{info.mail}</a>
+              Contact me at <a href="mailto:madebyalfa@gmail.com" >{info.mail}</a>
             </p>
           </footer>
         </div>

@@ -212,7 +212,7 @@ export const timezone = {
   Windhoek: 'Namibia',
   Noumea: 'New Caledonia',
   Norfolk: 'Norfolk Island',
-  Depok, Indonesia: 'Nigeria',
+  Depok, Indonesia: 'Indonesia',
   Managua: 'Nicaragua',
   Amsterdam: 'Netherlands',
   Oslo: 'Norway',
